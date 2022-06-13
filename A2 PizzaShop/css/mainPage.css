@@ -1,0 +1,135 @@
+html,
+body {
+    color: white;
+    background-color: black;
+}
+
+#contactInfo  {
+color:black;
+width: 300px;
+height: 65;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+
+#pizzaSizeDetail{
+color:black;
+width: 400px;
+height: 65;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+
+#pizzaSize_SML{
+display:block;
+margin-left:auto;
+margin-right:auto;
+height:200;
+width:400;
+border-radius: 10px;
+}
+
+#pizzaCrustDetail2{
+color: black;
+width: 400px;
+height: 65;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+
+#pizzaStyleDetail3{
+color:black;
+width: 400px;
+height: 65;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+#mainViewContainer {
+    position:relative;
+    margin-left: 220px;
+    padding-bottom: 90px;
+    width: calc(100% - 220px);
+}
+
+.gridViewItem {
+    display: inline-block;
+    margin-right: 20px;
+    width: 29%;
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.gridViewInfo {
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#vege_pizza{
+
+height:150;
+width:200;
+border-radius: 10px;
+
+}
+
+#pep_pizza{
+
+height:150;
+width:200;
+border-radius: 10px;
+}
+
+#cheese_pizza{
+display:block;
+margin-left:auto;
+margin-right:auto;
+height:150;
+width:200;
+border-radius: 10px;
+}
+
+#drinkDetail{
+color:black;
+width: 200px;
+height: 55;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+
+p {
+color:black;
+width: 250px;
+height: 100;
+border-radius: 198px;
+margin: 0 auto;
+position: relative;
+max-width:500px;
+background-color:coral;
+text-align:center;
+}
+
+

@@ -1,0 +1,125 @@
+
+
+<html>
+<head>
+    <script type="text/javascript" src = "pizza.js"></script>
+
+    <link rel="stylesheet" href="css/mainPage.css" type="text/css">
+</head>
+<body id="body">
+
+<form name="pizzaForm" action="" method ="POST">
+    <div id="contactInfo">
+        First Name: <input id="firstN" placeholder="username" type="text" name="fName"/>
+        <br>
+        Last Name: <input id="lastN" placeholder="username" type="text" name="lName"/>
+        <br>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+    </div><br>
+
+
+    <div id="pizzaSizeDetail">
+        Pizza Size<br>
+        <label for="Small">1) Small</label>
+        <input type="radio" name="pizzaSize" id="Small" value="small" >
+
+        <label for="Medium">2) Medium</label>
+        <input type="radio" name="pizzaSize" id="Medium" value="medium">
+
+        <label for="Large">3) Large</label>
+        <input type="radio" name="pizzaSize" id="Large" value="Large">
+
+        <label for="None">4) None</label>
+        <input type="radio" name="pizzaSize" id="None" value="none">
+    </div><br>
+
+    <div>
+        <img id="pizzaSize_SML"src="pizza_shop_album/pizza_size.jpg" alt="pizza size">
+
+    </div><br>
+
+    <div id="pizzaCrustDetail2">
+        Crust Style<br>
+        <label for="Thin">1) Thin</label>
+        <input type="radio" name="crustSize" id="Thin">
+
+        <label for="HandTossed">2) Hand Tossed</label>
+        <input type="radio" name="crustSize" id="HandTossed">
+
+        <label for="Regular">3) Regular</label>
+        <input type="radio" name="crustSize" id="Regular">
+    </div><br>
+    <div id="pizzaStyleDetail3">
+        Pizza Style<br>
+        <label for="Vege">1) Vege</label>
+        <input type="radio" name="pizzaStyle" id="Vege">
+
+        <label for="Pepperoni">2) Pepperoni</label>
+        <input type="radio" name="pizzaStyle" id="Pepperoni">
+
+        <label for="Cheese">3) Cheese</label>
+        <input type="radio" name="pizzaStyle" id="Cheese">
+    </div><br>
+
+    <div id="mainViewContainer">
+    <div class="gridViewContainer">
+
+        <div class="gridViewItem">
+            <img id="vege_pizza"src="pizza_shop_album/vege_za.jpg" alt="pizza size">
+            <div class="gridViewInfo"> Vege Pizza</div>
+        </div>
+
+
+
+        <div class="gridViewItem">
+            <img id="pep_pizza"src="pizza_shop_album/pepperoni_za.jpg" alt="pizza size">
+            <div class="gridViewInfo"> Pepperoni Pizza</div>
+        </div>
+
+        <div class="gridViewItem">
+            <img id="cheese_pizza"src="pizza_shop_album/cheese_za.jpg" alt="pizza size">
+            <div class="gridViewInfo"> Cheese Pizza</div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="drinkDetail">
+    <label for="Drink">Choose a drink:</label>
+    <select onchange="displayDrink()" name="Drink" id="Drink">
+
+        <option  name="bev" value=0>No drink</option>
+        <option id="Coke" name="bev" value=2>Coke $2</option>
+        <option id="Sprite" name="bev" value=2>Sprite $2</option>
+        <option id="Canada Dry" name="bev" value=2>Canada Dry $2</option>
+    </select>
+    </div>
+
+
+
+</form>
+<p>
+<span id="Pizza">Pizza Style</span><br>
+<span id="crustStyle"></span><br>
+
+<span id="Beverage"></span><br>
+
+<span id="calcAmount">Calculate Amount: $0</span>
+
+
+<br>
+<button onclick="toCalculateTotal(Total)">Add to Cart</button>
+<!--<button onclick="printResult(a,b,c)">Print Result</button>-->
+<button onclick="resetTotal(Total)">Cart Reset</button>
+
+</p>
+
+</body>
+
+</html>
+
+
+
+
+
